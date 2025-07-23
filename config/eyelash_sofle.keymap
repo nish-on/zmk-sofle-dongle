@@ -68,7 +68,7 @@
 
         layer0 {
             bindings = <
-&kp N1           &kp N2        &kp N3        &kp N4          &kp N5     &kp N6          &kp UP_ARROW     &kp N7          &kp N8     &kp N9          &kp N0         &kp MINUS      &kp BACKSPACE
+&kp N1           &kp N2        &kp N3        &kp N4          &kp N5     &kp N6          &kp UP_ARROW     &kp N7          &kp N8     &kp N9          &kp N0          &kp MINUS      &kp BACKSPACE
 &kp TAB          &kp Q         &kp W         &kp E           &kp R      &kp T           &kp DOWN_ARROW   &kp Y           &kp U      &kp I           &kp O          &kp P          &kp RCTRL
 &rgb_ug RGB_TOG  &kp A         &kp S         &kp D           &kp F      &kp G           &kp LEFT_ARROW   &kp H           &kp J      &kp K           &kp L          &kp SEMI       &kp ENTER
 &kp LSHFT        &kp Z         &kp X         &kp C           &kp V      &kp B           &kp RIGHT_ARROW  &kp N           &kp M      &kp COMMA       &kp DOT        &kp FSLH       &kp RIGHT_SHIFT
@@ -88,7 +88,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
+            display-name = "LAYER1";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -100,7 +100,7 @@
 &trans        &trans        &trans          &kp STAR      &kp LT        &kp PIPE         &mmv MOVE_RIGHT  &kp FSLH  &kp PRCNT  &kp HASH    &kp BSLH   &trans       &trans
 &trans        &trans        &trans          &trans        &kp SPACE     &trans           &mkp LCLK        &trans    &kp SPACE  &trans      &trans     &trans
             >;
-
+            display-name = "LAYER2";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -112,7 +112,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp FSLH   &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PLUS   &kp KP_N0  &kp COMMA  &kp DOT    &trans
               >;
-              display-name = "LAYER_3";
+              display-name = "LAYER3";
           };
       };
   };
