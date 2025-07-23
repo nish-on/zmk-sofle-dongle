@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - '2'
+  - {t: '$$mdi:keyboard-space$$', h: '2'}
   - $$mdi:keyboard-space$$
-  - LAYER_3
+  - {t: '$$mdi:keyboard-space$$', h: LAYER_3}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - LAYER_3
+  - {t: '$$mdi:keyboard-space$$', h: LAYER_3}
   - $$mdi:keyboard-space$$
-  - '2'
+  - {t: '$$mdi:keyboard-space$$', h: '2'}
   - RIGHT GUI
   - $$mdi:apple-keyboard-option$$
   layer1:
