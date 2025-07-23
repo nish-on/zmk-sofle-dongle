@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-caps$$
+  - RGB TOG
   - A
   - S
   - D
@@ -39,7 +39,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - .
+  - Enter
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
