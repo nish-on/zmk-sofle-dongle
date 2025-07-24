@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  L_0:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -56,16 +56,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', h: LAYER3}
-  - {t: '$$mdi:keyboard-space$$', h: LAYER2}
-  - {t: '$$mdi:keyboard-space$$', h: LAYER1}
+  - {t: '$$mdi:keyboard-space$$', h: L_3}
+  - {t: '$$mdi:keyboard-space$$', h: L_2}
+  - {t: '$$mdi:keyboard-space$$', h: L_1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: LAYER1}
-  - {t: '$$mdi:keyboard-space$$', h: LAYER2}
-  - {t: '$$mdi:keyboard-space$$', h: LAYER3}
+  - {t: '$$mdi:keyboard-space$$', h: L_1}
+  - {t: '$$mdi:keyboard-space$$', h: L_2}
+  - {t: '$$mdi:keyboard-space$$', h: L_3}
   - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
   - $$mdi:apple-keyboard-option$$
-  LAYER1:
+  L_1:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  LAYER2:
+  L_2:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -195,7 +195,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
-  LAYER3:
+  L_3:
   - {t: '`', s: '~'}
   - F1
   - F2
