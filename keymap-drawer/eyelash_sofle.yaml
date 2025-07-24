@@ -55,17 +55,17 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', h: LAYER_3}
+  - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER1}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER2}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER3}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: LAYER_3}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
-  - RIGHT GUI
+  - {t: '$$mdi:keyboard-space$$', h: LAYER3}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER2}
+  - {t: '$$mdi:keyboard-space$$', h: LAYER1}
+  - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
   - $$mdi:apple-keyboard-option$$
-  layer1:
+  LAYER1:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -121,16 +121,16 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  LAYER2:
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -153,7 +153,7 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '"'
   - (
-  - )
+  - '%'
   - '{'
   - {t: '[', s: '{'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -167,8 +167,8 @@ layers:
   - {t: '''', s: '"'}
   - ':'
   - '?'
-  - '}'
-  - {t: ']', s: '}'}
+  - {t: \, s: '|'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -178,24 +178,24 @@ layers:
   - '|'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: /, s: '?'}
-  - '%'
+  - )
   - '#'
-  - {t: \, s: '|'}
+  - '}'
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
-  - {type: held alternate}
+  - {t: '$$mdi:keyboard-space$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  LAYER_3:
+  - {t: '$$mdi:transfer$$', type: trans}
+  LAYER3:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
