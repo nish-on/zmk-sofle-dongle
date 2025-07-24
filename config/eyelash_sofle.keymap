@@ -76,7 +76,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "L_0";
         };
 
         layer_1 {
@@ -88,7 +88,7 @@
 &trans        &trans        &trans          &trans        &kp SPACE     &trans           &mkp LCLK        &trans    &kp SPACE  &trans     &trans     &trans
             >;
 
-            display-name = "LAYER1";
+            display-name = "L_1";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -100,7 +100,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp FSLH   &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PLUS   &kp KP_N0  &kp COMMA  &kp DOT    &trans
             >;
-            display-name = "LAYER2";
+            display-name = "L_2";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -112,7 +112,7 @@
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
               >;
-              display-name = "LAYER3";
+              display-name = "L_3";
           };
       };
   };
