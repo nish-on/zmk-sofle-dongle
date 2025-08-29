@@ -84,7 +84,7 @@
 
         layer_0 {
             bindings = <
-&kp N1           &kp N2        &kp N3               &kp N4          &kp N5          &kp N6          &kp UP_ARROW     &kp N7          &kp N8          &kp N9          &kp N0               &kp MINUS      &kp BACKSPACE
+&kp ESC          &kp N1        &kp N2               &kp N3          &kp N4          &kp N5          &kp UP_ARROW     &kp N6          &kp N7          &kp N8          &kp N9               &kp N0         &kp BACKSPACE
 &kp TAB          &kp Q         &kp W                &kp E           &kp R           &kp T           &kp DOWN_ARROW   &kp Y           &kp U           &kp I           &kp O                &kp P          &kp RCTRL
 &rgb_ug RGB_TOG  &kp A         &kp S                &kp D           &kp F           &kp G           &kp LEFT_ARROW   &kp H           &kp J           &kp K           &kp L                &kp SEMI       &kp ENTER
 &kp LSHFT        &kp Z         &kp X                &kp C           &kp V           &kp B           &kp RIGHT_ARROW  &kp N           &kp M           &kp COMMA       &kp DOT              &kp FSLH       &kp RIGHT_SHIFT
@@ -97,11 +97,11 @@
 
         layer_1 {
             bindings = <
-&kp ESC       &trans        &trans          &trans        &trans        &trans           &mmv MOVE_UP     &trans    &trans     &trans     &trans     &trans     &trans
-&trans        &trans        &trans          &kp MINUS     &kp GT        &kp PLUS         &mmv MOVE_DOWN   &kp DQT   &kp LPAR   &kp LBRC   &kp LBKT   &kp PRCNT  &trans
-&kp CAPSLOCK  &trans        &trans          &kp EXCL      &kp EQUAL     &kp AMPS         &mmv MOVE_LEFT   &kp SQT   &kp COLON  &kp QMARK  &kp BSLH   &kp SEMI   &trans
-&trans        &trans        &trans          &kp STAR      &kp LT        &kp PIPE         &mmv MOVE_RIGHT  &kp FSLH  &kp RPAR   &kp RBRC   &kp RBKT   &kp HASH   &trans
-&trans        &trans        &trans          &trans        &kp SPACE     &trans           &mkp LCLK        &trans    &kp SPACE  &trans     &trans     &trans
+&kp ESC       &trans        &trans          &trans        &trans        &trans           &mmv MOVE_UP     &kp Grave  &trans     &trans     &trans     &trans     &trans
+&trans        &trans        &trans          &kp MINUS     &kp GT        &kp PLUS         &mmv MOVE_DOWN   &kp DQT    &kp LPAR   &kp LBRC   &kp LBKT   &kp PRCNT  &trans
+&kp CAPSLOCK  &trans        &kp Tilde       &kp EXCL      &kp EQUAL     &kp AMPS         &mmv MOVE_LEFT   &kp SQT    &kp COLON  &kp QMARK  &kp BSLH   &kp SEMI   &trans
+&trans        &trans        &trans          &kp STAR      &kp LT        &kp PIPE         &mmv MOVE_RIGHT  &kp FSLH   &kp RPAR   &kp RBRC   &kp RBKT   &kp HASH   &trans
+&trans        &trans        &trans          &trans        &kp SPACE     &trans           &mkp LCLK        &trans     &kp SPACE  &trans     &trans     &trans
             >;
 
             display-name = "L_1";
