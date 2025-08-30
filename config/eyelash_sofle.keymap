@@ -13,7 +13,7 @@
 
 / {
     behaviors {
-        my_mt11: mod_tap {
+        my_mt12: mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -22,7 +22,7 @@
             hold-trigger-key-positions = <0>;
             hold-trigger-on-release;
         };
-        my_lt11: layer_tap {
+        my_lt12: layer_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
