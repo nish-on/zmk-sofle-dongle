@@ -86,9 +86,9 @@
             bindings = <
 &kp ESC          &kp N1        &kp N2              &kp N3            &kp N4            &kp N5            &kp UP_ARROW     &kp N6            &kp N7            &kp N8            &kp N9               &kp N0         &kp BACKSPACE
 &kp TAB          &kp Q         &kp W               &kp E             &kp R             &kp T             &kp DOWN_ARROW   &kp Y             &kp U             &kp I             &kp O                &kp P          &kp RCTRL
-&rgb_ug RGB_TOG  &kp A         &kp S               &kp D             &kp F             &kp G             &kp LEFT_ARROW   &kp H             &kp J             &kp K             &kp L                &kp SEMI       &kp ENTER
+&my_lt12 3 A     &kp A         &kp S               &kp D             &kp F             &kp G             &kp LEFT_ARROW   &kp H             &kp J             &kp K             &kp L                &kp SEMI       &kp ENTER
 &kp LSHFT        &kp Z         &kp X               &kp C             &kp V             &kp B             &kp RIGHT_ARROW  &kp N             &kp M             &kp COMMA         &kp DOT              &kp FSLH       &kp RIGHT_SHIFT
-&kp C_MUTE       &kp LEFT_ALT  &mt LEFT_GUI SPACE  &my_lt12 3 SPACE  &my_lt12 2 SPACE  &my_lt12 1 SPACE  &kp ENTER        &my_lt12 1 SPACE  &my_lt12 2 SPACE  &my_lt12 3 SPACE  &mt RIGHT_GUI SPACE  &kp RIGHT_ALT
+&kp C_MUTE       &kp LEFT_ALT  &mt LEFT_GUI SPACE  &my_lt12 2 SPACE  &my_lt12 1 SPACE  &kp LSHFT         &kp ENTER        &kp RIGHT_SHIFT   &my_lt12 1 SPACE  &my_lt12 2 SPACE  &mt RIGHT_GUI SPACE  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -101,7 +101,7 @@
 &trans        &trans        &kp UNDER       &kp MINUS     &kp GT        &kp PLUS         &mmv MOVE_DOWN   &kp DQT      &kp LPAR   &kp LBRC   &kp LBKT   &kp PRCNT  &trans
 &kp CAPSLOCK  &trans        &kp DOLLAR      &kp EXCL      &kp EQUAL     &kp AMPS         &mmv MOVE_LEFT   &kp SQT      &kp COLON  &kp EQUAL  &kp QMARK  &kp BSLH   &trans
 &trans        &trans        &kp TILDE       &kp STAR      &kp LT        &kp PIPE         &mmv MOVE_RIGHT  &kp FSLH     &kp RPAR   &kp RBRC   &kp RBKT   &kp HASH   &trans
-&trans        &trans        &trans          &trans        &kp SPACE     &trans           &mkp LCLK        &trans       &kp SPACE  &trans     &trans     &trans
+&trans        &trans        &trans          &trans        &trans        &trans           &mkp LCLK        &trans       &trans     &trans     &trans     &trans
             >;
 
             display-name = "L_1";
@@ -114,7 +114,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp STAR   &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp PLUS      &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp MINUS  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_ENTER  &kp KP_ENTER
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp FSLH   &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PLUS   &kp KP_N0  &kp COMMA  &kp DOT    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PLUS   &kp KP_N0  &trans     &kp COMMA  &kp DOT
             >;
             display-name = "L_2";
             sensor-bindings = <&scroll_encoder>;
@@ -124,7 +124,7 @@
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
 &trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &rgb_ug RGB_TOG  &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
               >;
