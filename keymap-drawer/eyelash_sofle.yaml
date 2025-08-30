@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - $$mdi:apple-keyboard-control$$
-  - '&my_lt12 3 A'
+  - {t: A, h: L_3}
   - A
   - S
   - D
@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - '&my_lt12 2 SPACE'
-  - '&my_lt12 1 SPACE'
+  - {t: '$$mdi:keyboard-space$$', h: L_2}
+  - {t: '$$mdi:keyboard-space$$', h: L_1}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - '&my_lt12 1 SPACE'
-  - '&my_lt12 2 SPACE'
+  - {t: '$$mdi:keyboard-space$$', h: L_1}
+  - {t: '$$mdi:keyboard-space$$', h: L_2}
   - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
   - $$mdi:apple-keyboard-option$$
   L_1:
@@ -122,11 +122,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -186,13 +186,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - +
   - KP 0
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: ',', s: <}
   - {t: ., s: '>'}
   L_3:
@@ -222,7 +222,7 @@ layers:
   - HOME
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - RGB TOG
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
