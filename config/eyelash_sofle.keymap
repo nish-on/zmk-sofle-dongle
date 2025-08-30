@@ -13,7 +13,7 @@
 
 / {
     behaviors {
-        my_lt20: layer_tap {
+        my_lt12: layer_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
