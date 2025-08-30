@@ -17,7 +17,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <11>;
+            tapping-term-ms = <12>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <0>;
             hold-trigger-on-release;
@@ -26,7 +26,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <11>;
+            tapping-term-ms = <12>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
         };
@@ -81,7 +81,7 @@
 &kp TAB          &kp Q         &kp W                     &kp E             &kp R             &kp T             &kp DOWN_ARROW   &kp Y             &kp U             &kp I             &kp O                     &kp P          &kp RCTRL
 &rgb_ug RGB_TOG  &kp A         &kp S                     &kp D             &kp F             &kp G             &kp LEFT_ARROW   &kp H             &kp J             &kp K             &kp L                     &kp SEMI       &kp ENTER
 &kp LSHFT        &kp Z         &kp X                     &kp C             &kp V             &kp B             &kp RIGHT_ARROW  &kp N             &kp M             &kp COMMA         &kp DOT                   &kp FSLH       &kp RIGHT_SHIFT
-&kp C_MUTE       &kp LEFT_ALT  &my_mt11 LEFT_GUI SPACE   &my_lt11 3 SPACE  &my_lt11 2 SPACE  &my_lt11 1 SPACE  &kp ENTER        &my_lt11 1 SPACE  &my_lt11 2 SPACE  &my_lt11 3 SPACE  &my_mt11 RIGHT_GUI SPACE  &kp RIGHT_ALT
+&kp C_MUTE       &kp LEFT_ALT  &my_mt12 LEFT_GUI SPACE   &my_lt12 3 SPACE  &my_lt12 2 SPACE  &my_lt12 1 SPACE  &kp ENTER        &my_lt12 1 SPACE  &my_lt12 2 SPACE  &my_lt12 3 SPACE  &my_mt12 RIGHT_GUI SPACE  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
