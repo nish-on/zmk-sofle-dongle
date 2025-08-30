@@ -102,8 +102,8 @@ layers:
   - {t: '''', s: '"'}
   - ':'
   - '?'
-  - {t: \, s: '|'}
-  - {t: ;, s: ':'}
+  - {t: '=', s: +}
+  - BSLSH
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
