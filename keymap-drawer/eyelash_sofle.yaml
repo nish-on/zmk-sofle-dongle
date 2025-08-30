@@ -55,15 +55,15 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:keyboard-space$$', h: L_3}
-  - {t: '$$mdi:keyboard-space$$', h: L_2}
-  - {t: '$$mdi:keyboard-space$$', h: L_1}
+  - '&my_mt12 LEFT_GUI SPACE'
+  - '&my_lt12 3 SPACE'
+  - '&my_lt12 2 SPACE'
+  - '&my_lt12 1 SPACE'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: L_1}
-  - {t: '$$mdi:keyboard-space$$', h: L_2}
-  - {t: '$$mdi:keyboard-space$$', h: L_3}
-  - {t: '$$mdi:keyboard-space$$', h: RIGHT GUI}
+  - '&my_lt12 1 SPACE'
+  - '&my_lt12 2 SPACE'
+  - '&my_lt12 3 SPACE'
+  - '&my_mt12 RIGHT_GUI SPACE'
   - $$mdi:apple-keyboard-option$$
   L_1:
   - $$mdi:keyboard-esc$$
@@ -123,9 +123,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -187,11 +187,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - +
-  - {t: KP 0, type: held alternate}
+  - KP 0
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -251,12 +251,12 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
