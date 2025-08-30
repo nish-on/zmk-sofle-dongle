@@ -13,27 +13,11 @@
 
 / {
     behaviors {
-        my_lt50: layer_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <50>;
-            bindings = <&mo>, <&kp>;
-            display-name = "Layer-Tap";
-        };
         my_lt12: layer_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <10>;
-            bindings = <&mo>, <&kp>;
-            display-name = "Layer-Tap";
-        };
-        my_lt300: layer_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <300>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
         };
