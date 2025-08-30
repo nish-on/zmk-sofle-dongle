@@ -101,9 +101,9 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '''', s: '"'}
   - ':'
+  - {t: '=', s: +}
   - '?'
   - {t: \, s: '|'}
-  - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
