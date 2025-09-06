@@ -25,7 +25,7 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <20>;
+            tapping-term-ms = <9>;
             bindings = <&mo>, <&kp>;
             display-name = "Layer-Tap";
         };
