@@ -97,10 +97,10 @@
 
         layer_1 {
             bindings = <
-&kp ESC       &trans        &trans          &kp UP     &kp DOWN   &kp CAPSLOCK  &mmv MOVE_UP     &kp CAPSLOCK  &kp LEFT   &kp RIGHT  &kp GRAVE  &trans     &trans
+&kp ESC       &trans        &trans          &kp UP     &kp DOWN   &kp CAPSLOCK  &mmv MOVE_UP     &kp CAPSLOCK  &kp LEFT   &kp RIGHT  &kp GRAVE  &kp FSLH   &trans
 &trans        &trans        &kp UNDER       &kp MINUS  &kp GT     &kp PLUS      &mmv MOVE_DOWN   &kp DQT       &kp LPAR   &kp LBKT   &kp LBRC   &kp PRCNT  &trans
-&kp CAPSLOCK  &trans        &kp DOLLAR      &kp EXCL   &kp EQUAL  &kp AMPS      &mmv MOVE_LEFT   &kp SQT       &kp COLON  &kp EQUAL  &kp QMARK  &kp BSLH   &trans
-&trans        &trans        &kp TILDE       &kp STAR   &kp LT     &kp PIPE      &mmv MOVE_RIGHT  &kp FSLH      &kp RPAR   &kp RBKT   &kp RBRC   &kp HASH   &trans
+&kp CAPSLOCK  &trans        &kp DOLLAR      &kp EXCL   &kp EQUAL  &kp AMPS      &mmv MOVE_LEFT   &kp SQT       &kp EQUAL  &kp COLON  &kp QMARK  &kp BSLH   &trans
+&trans        &trans        &kp TILDE       &kp STAR   &kp LT     &kp PIPE      &mmv MOVE_RIGHT  &kp UNDER     &kp RPAR   &kp RBKT   &kp RBRC   &kp HASH   &trans
 &trans        &trans        &trans          &trans     &trans     &trans        &mkp LCLK        &trans        &trans     &trans     &trans     &trans
             >;
 
