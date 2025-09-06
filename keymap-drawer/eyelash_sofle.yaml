@@ -77,7 +77,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -100,8 +100,8 @@ layers:
   - '&'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '''', s: '"'}
-  - ':'
   - {t: '=', s: +}
+  - ':'
   - '?'
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,7 +112,7 @@ layers:
   - <
   - '|'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: /, s: '?'}
+  - _
   - )
   - {t: ']', s: '}'}
   - '}'
