@@ -73,18 +73,18 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '-', s: _}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - _
-  - {t: '-', s: _}
-  - '>'
+  - '!'
   - +
+  - '&'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '"'
   - (
@@ -95,13 +95,13 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - $
-  - '!'
+  - <
   - {t: '=', s: +}
-  - '&'
+  - '>'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '''', s: '"'}
-  - ':'
   - {t: '=', s: +}
+  - ':'
   - '?'
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -109,10 +109,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '~'
   - '*'
-  - <
+  - {t: '-', s: _}
   - '|'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: /, s: '?'}
+  - _
   - )
   - {t: ']', s: '}'}
   - '}'
